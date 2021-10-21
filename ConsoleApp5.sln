@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "variance", "ConsoleApp5\variance.csproj", "{B80D52B8-4FFE-4B4D-BEFC-1A9BEB5A398B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nested", "nested\nested.csproj", "{B3DE9F31-236E-44A1-B365-CFA935E5DC8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nested2", "nested2\nested2.csproj", "{B078A0DB-2DCD-42E5-B2AC-4171D99ECDE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B80D52B8-4FFE-4B4D-BEFC-1A9BEB5A398B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80D52B8-4FFE-4B4D-BEFC-1A9BEB5A398B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80D52B8-4FFE-4B4D-BEFC-1A9BEB5A398B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80D52B8-4FFE-4B4D-BEFC-1A9BEB5A398B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3DE9F31-236E-44A1-B365-CFA935E5DC8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3DE9F31-236E-44A1-B365-CFA935E5DC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3DE9F31-236E-44A1-B365-CFA935E5DC8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3DE9F31-236E-44A1-B365-CFA935E5DC8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B078A0DB-2DCD-42E5-B2AC-4171D99ECDE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B078A0DB-2DCD-42E5-B2AC-4171D99ECDE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B078A0DB-2DCD-42E5-B2AC-4171D99ECDE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B078A0DB-2DCD-42E5-B2AC-4171D99ECDE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {688A1521-E1EB-43B2-9100-403ADA09284D}
+	EndGlobalSection
+EndGlobal
