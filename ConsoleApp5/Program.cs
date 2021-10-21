@@ -80,6 +80,18 @@ namespace ConsoleApp5
             ICovariant<Parent> covariant = new Covariant<Child>();
             IEnumerable<Parent> list = new List<Child>();
 
+            static Child Primer(string xxx)
+            {
+                return new Child();
+            }
+            Func<string, Child> primerChild = Primer;
+            Func<string, Parent> primerParent = Primer;
+            primerParent = primerChild;
+
+
+
+
+
 
             IContravariant<Child> contravariant = new Contravariant<Parent>();
 
@@ -90,6 +102,17 @@ namespace ConsoleApp5
             exampleDelegate(child);
 
             Console.WriteLine(child.Field);
+
+
+            static void Primer2(Parent parent)
+            {
+                
+            }
+            Action<Parent> primerChild2 = Primer2;
+            Action<Child> primerParent2 = Primer2;
+            primerParent2 = primerChild2;
+
+
             Console.WriteLine("111");
             
         }
